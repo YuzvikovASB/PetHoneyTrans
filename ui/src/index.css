@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helventica, sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section__title {
+    padding-bottom: 2%;
+}
+
+.section__layout {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.App {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 117px;
+    min-height: 100vh;
+    background-color: #d3d3d3;
+}
+
+
+/* ------- GENERAL FORM -------*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(255, 222, 89);
+    box-shadow: 3px 3px 12px rgb(255, 222, 89);
+    width: 30em;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.form__title {
+    padding: 1em 0;
+    font-size: 20px;
+}
+
+.form__container {
+    margin: 15px 0;
+}
+
+.form__input {
+    white-space: nowrap;
+    border: 2px solid rgb(255, 222, 89);
+    padding: 10px;
+    width: 60%;
+    border-radius: 3px;
+    outline: none;
+    text-indent: 3px;
+}
+
+.form__label {
+    width: 85px;
+    display: inline-block;
+}
+
+.form__submit-button {
+    color: white;
+    font-weight: 700;
+    padding: 3%;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 222, 89);
+}
+
+.form__submit-button:hover {
+    background-color: rgb(255, 200, 0);
+}

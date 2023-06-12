@@ -1,0 +1,30 @@
+/* -------- NAVBAR -------- */
+
+.nav-menu__list {
+    display: flex;
+    padding: 0 3em 2em;
+    justify-content: center;
+}
+
+.nav-menu__item {
+    margin: 0 1.5em;
+}
+
+.nav-menu__link {
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    width: 12em;
+    padding: 1em 2em;
+    font-weight: 600;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000;
+    background-color: rgb(255, 222, 89);
+}
+
+.nav-menu__link:hover {
+    background-color: rgb(255, 200, 0);
+}
+

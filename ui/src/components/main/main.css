@@ -1,0 +1,17 @@
+.intro {
+    background-color: #d3d3d3;
+}
+
+.intro__container {
+    padding: 15% 2%;
+}
+
+.intro__title {
+    font-size: 30px;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.intro__subtitle {
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+.header {
+    padding: 2em 1em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.header__logo,
+.header__profile {
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.header__logname {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.header__logo-link,
+.header__profile-link {
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    white-space: nowrap;
+}
+
+.header__profile-link {
+    padding-left: 8em;
+}
+
+.header__log {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.header__link {
+    color: white;
+    margin: 0 15px;
+    padding: 15px 20px;
+    border: 3px solid #ffffff;
+    white-space: nowrap;
+}
+
+.header__button {
+    color: white;
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 15px 20px;
+    border: 3px solid #ffffff;
+    white-space: nowrap;
+    background-color: rgb(255, 222, 89);
+}
+
+
+.header__link:hover,
+.header__button:hover {
+    background-color: rgb(255, 200, 0);
+}

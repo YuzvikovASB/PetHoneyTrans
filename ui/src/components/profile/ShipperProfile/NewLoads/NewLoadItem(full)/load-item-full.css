@@ -1,0 +1,14 @@
+.full-load__info {
+    padding-bottom: 1em;
+}
+
+.full-load__parameter {
+    font-size: 20px;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.full-load__button {
+    margin: 1em;
+    width: 100px;
+}

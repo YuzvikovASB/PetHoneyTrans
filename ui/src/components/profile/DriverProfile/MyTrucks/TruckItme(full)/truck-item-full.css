@@ -1,0 +1,14 @@
+.full-truck__parameter {
+    padding: 1em 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.full-truck__button-container {
+    padding: 1em 0;
+}
+
+.full-truck__button {
+    margin: 1em;
+    width: 10em;
+}
